@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255 255 255);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(17 24 39);
+  }
+}
+
+.shine {
+  background-image: linear-gradient(270deg, rgba(100, 181, 239, 0) 48.44%, rgb(99, 102, 241, 100) 75%, rgba(100, 181, 239, 0) 100%);
+  background-repeat: no-repeat;
+}
+
+.shine-yellow {
+  background-image: linear-gradient(270deg, rgba(100, 181, 239, 0) 48.44%, rgb(243, 202, 34) 75%, rgba(100, 181, 239, 0) 100%);
+  background-repeat: no-repeat;
+}
+
+.shine-green {
+  background-image: linear-gradient(270deg, rgba(100, 181, 239, 0) 48.44%, rgb(15, 134, 61) 75%, rgba(100, 181, 239, 0) 100%);
+  background-repeat: no-repeat;
+}
+
+.shine-lime {
+  background-image: linear-gradient(270deg, rgba(100, 181, 239, 0) 48.44%, rgb(190, 242, 100) 75%, rgba(100, 181, 239, 0) 100%);
+  background-repeat: no-repeat;
+}
+
