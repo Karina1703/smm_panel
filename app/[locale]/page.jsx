@@ -19,7 +19,7 @@ export async function generateMetadata() {
   return {
     title: t("Seo.title"),
     description: t("Seo.description"),
-    metadataBase: new URL('API_URL'),
+    metadataBase: new URL(API_URL),
     alternates: {
       canonical: "/",
       languages: {
